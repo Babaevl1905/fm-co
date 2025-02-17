@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2833; /* Bleu foncé élégant */
+    background-color: #1F2833;
     padding: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -39,7 +39,7 @@ header {
     text-decoration: none;
     color: #FFFFFF;
     padding: 15px 25px;
-    background-color: #0B4F6C; /* Bleu professionnel */
+    background-color: #0B4F6C;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
@@ -191,16 +191,46 @@ button:hover {
     .form-row {
         flex-direction: column;
     }
+
+    .menu nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu nav ul li {
+        font-size: 18px;
+    }
+
+    .description h1 {
+        font-size: 28px;
+    }
+
+    .description p {
+        font-size: 16px;
+    }
+
+    .description .services {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .description .service-item {
+        width: 80%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
 }
 
 /* Conteneur de la carte */
 .map-container {
     max-width: 100%;
-    width: 80%;  /* Réduit légèrement la largeur pour l'adapter à l'espace */
-    margin: 40px auto;  /* Ajout d'une marge plus large pour un meilleur espacement */
+    width: 80%;
+    margin: 40px auto;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce et plus marquée */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
 }
@@ -208,23 +238,23 @@ button:hover {
 /* Style de la carte */
 .map {
     width: 100%;
-    height: 450px; /* Hauteur modérée pour une visibilité parfaite */
+    height: 450px;
     border: none;
-    border-radius: 12px; /* Arrondi élégant */
-    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1); /* Ombre interne plus douce pour un effet chic */
+    border-radius: 12px;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Lien d'ouvrir sur Google Maps */
 .map-link {
     display: inline-block;
     margin-top: 20px;
-    font-size: 18px;  /* Taille de police agréable */
+    font-size: 18px;
     color: #007bff;
     text-decoration: none;
-    font-weight: 600; /* Police légèrement plus épaisse pour un meilleur contraste */
+    font-weight: 600;
     border: 2px solid #007bff;
-    border-radius: 8px; /* Arrondi doux pour le bouton */
-    padding: 12px 25px; /* Bouton plus large et agréable à cliquer */
+    border-radius: 8px;
+    padding: 12px 25px;
     transition: all 0.3s ease;
 }
 
@@ -232,5 +262,5 @@ button:hover {
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
-    transform: translateY(-3px); /* Légère élévation pour un effet interactif */
+    transform: translateY(-3px);
 }
